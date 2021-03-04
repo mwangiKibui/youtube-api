@@ -1,0 +1,24 @@
+{
+  "name": "video-streaming-youtube-api",
+  "version": "1.0.0",
+  "description": "Building up on the youtube api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "video-streaming-youtube-api"
+  },
+  "author": "mwangikibui",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "google-auth-library": "^7.0.2",
+    "googleapis": "^67.0.0",
+    "query-string": "^6.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
